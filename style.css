@@ -117,3 +117,25 @@ CSS
 header h1 {
   font-size: 30px;
 }
+#trust {
+  background: #f1f8f1;
+  padding: 40px 20px;
+}
+
+h2 {
+  color: #1b5e20;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+}
+
+.hero {
+  background: linear-gradient(to right, #c8e6c9, #e8f5e9);
+  padding: 70px 20px;
+}
+
+footer {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
