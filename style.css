@@ -66,6 +66,32 @@ footer {
   background: #1b5e20;
   color: white;
   padding: 15px;
+ form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1b5e20;
+} 
 }
 
 .whatsapp-btn {
@@ -77,4 +103,4 @@ footer {
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
-}
+
